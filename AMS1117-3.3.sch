@@ -219,17 +219,6 @@ F 3 "" V 5100 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L taobao-components:VIN #PWR?
-U 1 1 5C1480E5
-P 1350 950
-F 0 "#PWR?" H 1350 800 50  0001 C CNN
-F 1 "VIN" H 1400 1100 50  0000 C CNN
-F 2 "" H 1350 950 50  0001 C CNN
-F 3 "" H 1350 950 50  0001 C CNN
-	1    1350 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Jumper_NO_Small JP?
 U 1 1 5C148323
 P 1350 1100
@@ -297,4 +286,15 @@ F 3 "" H 1350 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 1650 1350 1950
+$Comp
+L power:+5V #PWR?
+U 1 1 5C153651
+P 1350 950
+F 0 "#PWR?" H 1350 800 50  0001 C CNN
+F 1 "+5V" H 1400 1150 50  0000 C CNN
+F 2 "" H 1350 950 50  0001 C CNN
+F 3 "" H 1350 950 50  0001 C CNN
+	1    1350 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

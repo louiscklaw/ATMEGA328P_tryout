@@ -15,60 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Mini J7
-U 1 1 5C0C4517
-P 3250 3200
-F 0 "J7" H 3350 3700 50  0000 C CNN
-F 1 "USB_B_Mini" H 3350 3600 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 3400 3150 50  0001 C CNN
-F 3 "~" H 3400 3150 50  0001 C CNN
-	1    3250 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 3200 5400 3200
-Wire Wire Line
-	3550 3300 5400 3300
-$Comp
-L power:GND #PWR0128
-U 1 1 5C0C45BE
-P 3200 3850
-F 0 "#PWR0128" H 3200 3600 50  0001 C CNN
-F 1 "GND" H 3250 3650 50  0000 C CNN
-F 2 "" H 3200 3850 50  0001 C CNN
-F 3 "" H 3200 3850 50  0001 C CNN
-	1    3200 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 3600 3150 3750
-Wire Wire Line
-	3150 3750 3200 3750
-Wire Wire Line
-	3200 3750 3200 3850
-Wire Wire Line
-	3250 3600 3250 3750
-Wire Wire Line
-	3250 3750 3200 3750
-Connection ~ 3200 3750
-$Comp
-L power:+5V #PWR0129
-U 1 1 5C0C464F
-P 3750 2300
-F 0 "#PWR0129" H 3750 2150 50  0001 C CNN
-F 1 "+5V" H 3800 2500 50  0000 C CNN
-F 2 "" H 3750 2300 50  0001 C CNN
-F 3 "" H 3750 2300 50  0001 C CNN
-	1    3750 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 2300 3750 2450
-Wire Wire Line
-	3750 2650 3750 3000
-Wire Wire Line
-	3750 3000 3550 3000
-$Comp
 L power:+3V3 #PWR0130
 U 1 1 5C0C4955
 P 4450 2100
@@ -260,15 +206,12 @@ F 3 "" H 6150 1150 50  0001 C CNN
 	1    6150 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L taobao-sd:SD_1N4001_M1 D5
-U 1 1 5C0DACA6
-P 3750 2550
-F 0 "D5" V 3700 2650 50  0000 L CNN
-F 1 "SD_1N4001_M1" V 3750 2650 50  0000 L CNN
-F 2 "w_smd_diode:do214ac" V 3750 2550 50  0001 C CNN
-F 3 "~" V 3750 2550 50  0001 C CNN
-	1    3750 2550
-	0    1    1    0   
-$EndComp
+Text GLabel 4050 3300 0    50   Input ~ 0
+D_M
+Text GLabel 4050 3200 0    50   Input ~ 0
+D_P
+Wire Wire Line
+	4050 3200 5400 3200
+Wire Wire Line
+	4050 3300 5400 3300
 $EndSCHEMATC
