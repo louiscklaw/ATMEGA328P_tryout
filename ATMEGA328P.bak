@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AMS1117_tryout-cache
+LIBS:ATMEGA328P_tryout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,7 +25,7 @@ F 1 "ATMEGA328P" H 6200 5600 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 6150 3700 50  0001 C CNN
 F 3 "" H 6150 3700 50  0001 C CNN
 	1    6200 4050
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J1
