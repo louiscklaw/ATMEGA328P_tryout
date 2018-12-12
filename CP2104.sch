@@ -26,8 +26,6 @@ F 3 "" H 4450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2150 4450 2400
-Wire Wire Line
 	4450 2400 5100 2400
 Wire Wire Line
 	5400 2300 5250 2300
@@ -214,4 +212,6 @@ Wire Wire Line
 	4050 3200 5400 3200
 Wire Wire Line
 	4050 3300 5400 3300
+Wire Wire Line
+	4450 2100 4450 2400
 $EndSCHEMATC
