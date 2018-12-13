@@ -1861,9 +1861,9 @@
   (gr_line (start 20 25) (end 20 120) (layer Edge.Cuts) (width 0.2))
 
   (segment (start 41.22974 60.29963) (end 41.22974 59.2) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 40.34 63.675) (end 41.22974 62.78526) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 41.22974 62.78526) (end 41.22974 60.29963) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 39.265 63.675) (end 40.34 63.675) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 41.22974 63.17026) (end 41.22974 60.29963) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 39.265 63.675) (end 40.725 63.675) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 40.725 63.675) (end 41.22974 63.17026) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 46.7297 56.3417) (end 58.3966 44.6748) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 58.3966 44.6748) (end 58.88 44.6748) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 58.88 44.6748) (end 58.88 39.1753) (width 0.25) (layer F.Cu) (net 2))
